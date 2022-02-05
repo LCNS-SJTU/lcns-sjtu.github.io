@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Yuru Song
-description: Visiting Scholar  # Change to fit your case from [PhD Candidate, Master Student, Undergraduate, Visiting Scholar]
+description: PhD Candidate @UCSD # Change to fit your case from [PhD Candidate, Master Student, Undergraduate, Visiting Scholar]
 img: #assets/img/bio-photo.jpg
 redirect:
 importance: 1 # [PhD Candidate=3, Master Student=4, Undergraduate=5]
