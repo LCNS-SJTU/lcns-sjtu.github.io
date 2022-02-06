@@ -1,0 +1,100 @@
+{% if include.filter %}
+  {% assign filter = include.filter %}
+{% else %}
+  {% assign filter = 'all' %}
+{% endif %}
+
+<style>
+  tr.alt td {
+    background-color: #EDEEEE;
+  }
+</style>
+
+<table style="height: auto;" width="800">
+    <tbody>
+      <tr class="alt" style="border: 2px solid black;">
+        <th style="width: 20%">Date</th>
+        <th style="width: 15%">Presenter</th>
+        <th style="width: 60%">Reading</th>
+      </tr>
+  
+      {% assign my_counter = 0 %}
+      {% assign nowTimestamp = 'now' | date: '%s' %}
+      {% assign nowTimestamp1 = 'now' %}
+  
+      {% if filter contains 'future' %}
+        {% assign sortMeetingInfo = site.data.meeting_info | sort: 'date' %}
+      {% else %}
+        {% assign sortMeetingInfo = site.data.meeting_info | sort: 'date' | reverse %}
+      {% endif %}
+
+      {% for entry in sortMeetingInfo %}
+        {% assign dateStart = entry.date | date: '%s' %}
+        {% assign diffSeconds = dateStart | minus: nowTimestamp %}
+
+        {% if filter contains 'future' and diffSeconds < 0 %}
+          {% continue %}
+        {% endif %}
+        
+        <!-- Set the style of every row. -->
+        {% if diffSeconds > 0%}
+          {% if my_counter == 0 %}
+            <tr class="alt" style="border: 4px solid rgb(75, 128, 68);">
+            {% assign my_counter = 1 %}
+          {% else %}
+            <tr style="border: 4px solid rgb(75, 128, 68);">
+            {% assign my_counter = 0 %}
+          {% endif %}
+        {% else %} 
+          {% if my_counter == 0 %}
+            <tr class="alt">
+            {% assign my_counter = 1 %}
+          {% else %}
+            <tr>
+            {% assign my_counter = 0 %}
+          {% endif %}
+        {% endif %}
+      
+      <!-- date -->
+      <td>
+        <p>{{entry.date | date: "<b>%Y/%m/%d</b> %l:%M %p"}}</p>
+      </td>
+  
+      <!-- presenter -->
+      <td>
+        <p>{{entry.presenter}}<br>
+        {% assign summary = site.posts |  where: "title", entry.paper%}
+        {% for summary_page in summary %}
+          {% assign entry_date = entry.date | date_to_string%}
+          {% assign summary_date = summary_page.date | date_to_string%}
+          {% if summary_date == entry_date %}
+            ( <a href= "{{summary_page.url | relative_url }}" target="_blank">Summary</a> )
+          {% endif %}
+        {% endfor %}
+        </p>
+      </td>
+  
+      <!-- paper -->
+      <td>
+        <p><i><b>{{entry.paper}}.</b></i>
+        {% unless entry.authors == "None" %}
+        <br>{{entry.authors}} 
+        {% endunless %}
+        {% unless entry.url == "None" %}
+        ( <a href="{{entry.url}}">link</a>
+          {% unless entry.pdf == "None" %}
+          , <a href="{{entry.pdf}}">pdf</a>
+          {% endunless %}
+        )
+        {%else%}
+          {% unless entry.pdf == "None" %}
+            ( <a href="{{entry.pdf}}">pdf</a> )
+          {% endunless %}
+        {% endunless %}
+      </td>
+
+    </tr>
+
+    {% endfor %}
+    </tbody>
+  </table>
