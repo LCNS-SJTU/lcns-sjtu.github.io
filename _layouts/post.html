@@ -23,7 +23,7 @@ layout: default
       {%- if tags != "" %}
       &nbsp; &middot; &nbsp;
         {% for tag in page.tags -%}
-        <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+        <a href="{{ tag | downcase | prepend: '/blog/tag/' | prepend: site.baseurl}}">
           <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
