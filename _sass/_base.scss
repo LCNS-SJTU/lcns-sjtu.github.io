@@ -567,3 +567,28 @@ html.transition *:after {
   font-size: 0.875rem;
   padding-top: 0.25rem;
 }
+
+.header-background .img {
+  // background-image: url("../img/splash_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 10em;
+  margin-bottom: 2em;
+  margin-top: 0em;
+}
+
+.header-background .text {
+  margin-top: -8em;
+  text-align: left;
+  margin-left: 5em;
+  padding-bottom: 3em;
+  color: white;
+  font-weight: bold;
+}
+
+.header-background .text h2 {
+  font-weight: bold;
+  color: white;
+  font-size: 3em;
+}

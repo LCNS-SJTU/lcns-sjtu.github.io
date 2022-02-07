@@ -7,6 +7,7 @@ nav: true
 order: 1
 display_categories: [current, visitor, alumni]
 horizontal: false
+header_background_image: assets/img/4.jpg
 ---
 
 <!-- pages/projects.md -->
