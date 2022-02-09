@@ -1,41 +1,41 @@
 - presenter: TBD
   date: 2022-02-14 20:00:00
   paper: TBD
-  url: "None"
-  pdf: "None"
-  authors: "None"
+  url: None
+  pdf: None
+  authors: None
 
 - presenter: Kai Chen
   date: 2021-12-13 19:00:00
   paper: Context-dependent computation by recurrent dynamics in prefrontal cortex
   url: https://www.nature.com/articles/nature12742
-  pdf: "https://www.nature.com/articles/nature12742.pdf"
+  pdf: https://www.nature.com/articles/nature12742.pdf
   authors: Valerio Mante*, David Sussillo*, Krishna V. Shenoy & William T. Newsome.
 
 - presenter: Kai Chen
   date: 2021-09-08 19:00:00
   paper: Learning function from structure in neuromorphic networks
-  url: "https://www.nature.com/articles/s42256-021-00376-1"
-  pdf: "https://www.nature.com/articles/s42256-021-00376-1.pdf"
-  authors: "Laura E. Suárez, Blake A. Richards, Guillaume Lajoie & Bratislav Misic"
+  url: https://www.nature.com/articles/s42256-021-00376-1
+  pdf: https://www.nature.com/articles/s42256-021-00376-1.pdf
+  authors: Laura E. Suárez, Blake A. Richards, Guillaume Lajoie & Bratislav Misic
 
 - presenter: Kai Chen
   date: 2021-05-20 19:00:00
   paper: "One Step Back, Two Steps Forward: Interference and Learning in Recurrent Neural Networks"
-  url: "https://direct.mit.edu/neco/article/31/10/1985/95556/One-Step-Back-Two-Steps-Forward-Interference-and"
-  pdf: "https://direct.mit.edu/neco/article-pdf/31/10/1985/1864371/neco_a_01222.pdf"
-  authors: "Chen Beer, Omri Barak"
+  url: https://direct.mit.edu/neco/article/31/10/1985/95556/One-Step-Back-Two-Steps-Forward-Interference-and
+  pdf: https://direct.mit.edu/neco/article-pdf/31/10/1985/1864371/neco_a_01222.pdf
+  authors: Chen Beer, Omri Barak
 
 - presenter: Kai Chen
   date: 2021-04-21 19:00:00
   paper: Universality and individuality in neural dynamics across large populations of recurrent networks
-  url: "https://proceedings.neurips.cc/paper/2019/hash/5f5d472067f77b5c88f69f1bcfda1e08-Abstract.html"
-  pdf: "https://proceedings.neurips.cc/paper/2019/file/5f5d472067f77b5c88f69f1bcfda1e08-Paper.pdf"
-  authors: "Niru Maheswaranathan, Alex Williams, Matthew Golub, Surya Ganguli, David Sussillo"
+  url: https://proceedings.neurips.cc/paper/2019/hash/5f5d472067f77b5c88f69f1bcfda1e08-Abstract.html
+  pdf: https://proceedings.neurips.cc/paper/2019/file/5f5d472067f77b5c88f69f1bcfda1e08-Paper.pdf
+  authors: Niru Maheswaranathan, Alex Williams, Matthew Golub, Surya Ganguli, David Sussillo
 
 - presenter: Kai Chen
   date: 2020-12-09 19:00:00
-  paper: "Generating Coherent Patterns of Activity from Chaotic Neural Networks"
-  url: "https://www.sciencedirect.com/science/article/pii/S0896627309005479"
-  pdf: "https://pdf.sciencedirectassets.com/272195/1-s2.0-S0896627309X00176/1-s2.0-S0896627309005479/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHoaCXVzLWVhc3QtMSJHMEUCIQDp8nV%2BsmSwHepus8mFJVRSNone"
-  authors: "David Sussillo, L.F.Abbott"
+  paper: Generating Coherent Patterns of Activity from Chaotic Neural Networks
+  url: https://www.sciencedirect.com/science/article/pii/S0896627309005479
+  pdf: https://pdf.sciencedirectassets.com/272195/1-s2.0-S0896627309X00176/1-s2.0-S0896627309005479/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHoaCXVzLWVhc3QtMSJHMEUCIQDp8nV%2BsmSwHepus8mFJVRSNone
+  authors: David Sussillo, L.F.Abbott
