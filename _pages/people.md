@@ -2,58 +2,37 @@
 layout: page
 title: people
 permalink: /people/
-description: #Powered by project templates.
+description:
 nav: true
 order: 1
-display_categories: [current, visitor, alumni]
-horizontal: false
+display_categories: [Principal Investigator, PhD Candidate, Master's Student, Undergraduate, Visiting Scholar, Alumni]
 header_background_image: assets/img/4.jpg
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
+<!-- pages/people.md -->
+<div class="people">
 {%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  <!-- Display categorized people -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
+  {%- assign categorized_people = site.people | where: "category", category -%}
+  {%- assign sorted_people = categorized_people | sort: "year" %}
+  <!-- Generate cards for each people -->
+  <div class="row">
+    {%- for people in sorted_people -%}
+      {% include people.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
   {% endfor %}
 
 {%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
+<!-- Display people without categories -->
+  {%- assign sorted_people = site.people | sort: "title" -%}
+  <!-- Generate cards for each people -->
+  <div class="row">
+    {%- for people in sorted_people -%}
+      {% include people.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
 {%- endif -%}
 </div>

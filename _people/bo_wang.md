@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Bo Wang
-description: PhD Candidate
+description: 
 img: assets/img/bo_wang.png
 redirect:
-importance: 3
-category: current
+year: 2016
+category: PhD Candidate
 ---

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Tao Shi
-description: Master Student
+description: 
 img: #assets/img/bio-photo.jpg
 redirect:
-importance: 4
-category: current
+year: 2019
+category: Master's Student
 ---

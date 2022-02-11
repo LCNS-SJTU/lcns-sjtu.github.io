@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Zheng Wang
-description: Master Student
+description: 
 img: #assets/img/bio-photo.jpg
 redirect:
-importance: 4
-category: current
+year: 2021
+category: Master's Student
 ---

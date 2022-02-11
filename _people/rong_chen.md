@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Rong Chen
-description: Master Student
+description: 
 img: #assets/img/bio-photo.jpg
 redirect:
-importance: 4
-category: current
+year: 2020
+category: Master's Student
 ---

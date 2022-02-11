@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Boran Yang
-description: Undergraduate
+description: 
 img: #assets/img/bio-photo.jpg
 redirect:
-importance: 5
-category: current
+year: 2018
+category: Undergraduate
 ---

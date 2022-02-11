@@ -379,6 +379,64 @@ footer.sticky-bottom {
   }
 }
 
+// people
+.people {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    // TODO: set media size dependent fontsize.
+    max-width: 375px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background: var(--global-bg-color);
+    padding: 0px;
+    // padding-bottom: 0px;
+    margin-bottom: 0px;
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+    .card-img {
+      width: 100%;
+      background: white;
+      padding-bottom: 0px;
+    }
+    .rounded {
+      border-left: 10px;
+    }
+    .card-title {
+      font-weight: normal;
+      margin-top: 15px;
+    }
+
+    .card-link {
+      font-size: 20px;
+    }
+  }
+
+  figure {
+    margin-bottom: 0px;
+  }
+
+  h2.category {
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+}
+
 
 // Publications
 

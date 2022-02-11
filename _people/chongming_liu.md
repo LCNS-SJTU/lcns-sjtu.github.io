@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Chongming Liu
-description: PhD Candidate
+description: 
 img: #assets/img/bio-photo.jpg
 redirect:
-importance: 3
-category: current
+year: 2021
+category: PhD Candidate
 ---

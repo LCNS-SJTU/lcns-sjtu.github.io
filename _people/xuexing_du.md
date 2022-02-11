@@ -1,9 +1,11 @@
 ---
 layout: page
 title: Xuexing Du
-description: PhD Candidate
+description: 
 img: assets/img/xuexing_du.png
 redirect:
-importance: 3
-category: current
+year: 2018
+category: PhD Candidate
+email:
+github_username:
 ---
