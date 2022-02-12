@@ -1,16 +1,15 @@
 
     <!-- _includes/people.html -->
     <div class="col-md-6 ml-mr-auto mb-3">
-      <div class="card rounded">
+      <div class="card">
         <div class="row no-gutters">
           <div class="col-4">
           {% if people.img %}
-            {%- include figure.html 
-              class="card-img rounded"
+            {%- include figure.html class="card-img"
               path=people.img -%}
           {% else %}
             {%- include figure.html 
-              class="card-img rounded"
+              class="card-img"
               path="assets/img/default-avatar.png" -%}
           {% endif %}
           </div>
@@ -26,17 +25,17 @@
                   <a href="{{ people.url | relative_url }}" class="card-link" title="link"><i class="fas fa-link"></i></a>
                 {%- endif %}
               </div>
-              {%- if people.email -%}
+              {% if people.email -%}
                 <div class="col-3">
                 <a href="mailto:{{ people.email | encode_email }}" class="card-link" title="email"><i class="fas fa-envelope"></i></a>
                 </div>
               {%- endif %}
-              {%- if people.google_scholar -%}
+              {% if people.google_scholar -%}
                 <div class="col">
                 <a href="{{ people.google_scholar | relative_url }}" class="card-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
                 </div>
               {%- endif %}
-              {%- if people.github_username -%}
+              {% if people.github_username -%}
                 <div class="col">
                 <a href="https://github.com/{{ people.github_username }}" class="card-link" title="GitHub"><i class="fab fa-github"></i></a>
                 </div>

@@ -409,9 +409,10 @@ footer.sticky-bottom {
       width: 100%;
       background: white;
       padding-bottom: 0px;
-    }
-    .rounded {
-      border-left: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 0px;
     }
     .card-title {
       font-weight: normal;
