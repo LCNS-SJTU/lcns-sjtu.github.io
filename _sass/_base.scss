@@ -398,8 +398,9 @@ footer.sticky-bottom {
     border-radius: 10px;
     background: var(--global-bg-color);
     padding: 0px;
-    // padding-bottom: 0px;
     margin-bottom: 0px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     &:hover {
       .card-title {
         color: var(--global-theme-color);
@@ -422,6 +423,23 @@ footer.sticky-bottom {
     .card-link {
       font-size: 20px;
     }
+  }
+  .card::after {
+    content: "";
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 5px 20px 3px #cccccc;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .card:hover::after {
+    opacity: 1;
   }
 
   figure {
