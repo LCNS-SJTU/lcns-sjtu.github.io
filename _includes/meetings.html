@@ -4,21 +4,17 @@
   {% assign filter = 'all' %}
 {% endif %}
 
-<style>
-  tr.alt td {
-    background-color: #EDEEEE;
-  }
-</style>
-
-<table style="height: auto;" width="auto">
-    <tbody>
-      <tr class="alt" style="border: 2px solid black;">
-        <th style="width: 20%">Date</th>
-        <th style="width: 15%">Presenter</th>
-        <th style="width: 60%">Reading</th>
+<table class="table table-sm table-striped table-hover">
+    <thead class="thead-dark" 
+      style="font-size: 18px; text-align: center;">
+      <tr>
+        <th scope="col" style="width: 10%">Date</th>
+        <th scope="col" style="width: 15%">Presenter</th>
+        <th scope="col" style="width: auto">Reading</th>
       </tr>
-  
-      {% assign my_counter = 0 %}
+    </thead>  
+
+    <tbody>
       {% assign nowTimestamp = 'now' | date: '%s' %}
       {% assign nowTimestamp1 = 'now' %}
   
@@ -37,64 +33,51 @@
         {% endif %}
         
         <!-- Set the style of every row. -->
-        {% if diffSeconds > 0%}
-          {% if my_counter == 0 %}
-            <tr class="alt" style="border: 4px solid rgb(75, 128, 68);">
-            {% assign my_counter = 1 %}
-          {% else %}
-            <tr style="border: 4px solid rgb(75, 128, 68);">
-            {% assign my_counter = 0 %}
-          {% endif %}
-        {% else %} 
-          {% if my_counter == 0 %}
-            <tr class="alt">
-            {% assign my_counter = 1 %}
-          {% else %}
-            <tr>
-            {% assign my_counter = 0 %}
-          {% endif %}
-        {% endif %}
+        {% if diffSeconds > 0%}<tr class="future-item">{% else %}<tr>{% endif %}
+          
+          <!-- date -->
+          <th scope="row">
+            <p style="text-align: right;">{{entry.date | date: "<b>%Y/%m/%d</b> <br/> %l:%M %p"}}</p>
+          </th>
       
-      <!-- date -->
-      <td>
-        <p>{{entry.date | date: "<b>%Y/%m/%d</b> %l:%M %p"}}</p>
-      </td>
-  
-      <!-- presenter -->
-      <td>
-        <p>{{entry.presenter}}<br>
-        {% assign summary = site.posts |  where: "title", entry.paper%}
-        {% for summary_page in summary %}
-          {% assign entry_date = entry.date | date_to_string%}
-          {% assign summary_date = summary_page.date | date_to_string%}
-          {% if summary_date == entry_date %}
-            ( <a href= "{{summary_page.url | relative_url }}" target="_blank">Summary</a> )
-          {% endif %}
-        {% endfor %}
-        </p>
-      </td>
-  
-      <!-- paper -->
-      <td>
-        <p><i><b>{{entry.paper}}.</b></i>
-        {% unless entry.authors == "None" %}
-        <br>{{entry.authors}} 
-        {% endunless %}
-        {% unless entry.url == "None" %}
-        ( <a href="{{entry.url}}">link</a>
-          {% unless entry.pdf == "None" %}
-          , <a href="{{entry.pdf}}">pdf</a>
-          {% endunless %}
-        )
-        {%else%}
-          {% unless entry.pdf == "None" %}
-            ( <a href="{{entry.pdf}}">pdf</a> )
-          {% endunless %}
-        {% endunless %}
-      </td>
+          <!-- presenter -->
+          <td>
+            <p style="text-align: center;">{{entry.presenter}}<br>
+            {% assign summary = site.posts |  where: "title", entry.paper%}
+            {% for summary_page in summary %}
+              {% assign entry_date = entry.date | date_to_string%}
+              {% assign summary_date = summary_page.date | date_to_string%}
+              {% if summary_date == entry_date %}
+                ( <a href= "{{summary_page.url | relative_url }}" target="_blank">Summary</a> )
+              {% endif %}
+            {% endfor %}
+            </p>
+          </td>
+      
+          <!-- paper -->
+          <td>
+            <p style="margin:0px;"><b>{{entry.paper}}.</b><br>
+            {% if entry.authors %}
+            <i>{{entry.authors}}</i>
+            {% endif %}
+            {% assign link_toggle = 0 %}
+            {% if entry.url %}
+            {% if link_toggle == 0 -%} ( {%- assign link_toggle=1 -%} {%- else -%} , {% endif %}
+            <a href="{{entry.url}}">Link</a>
+            {% endif %}
 
-    </tr>
+            {% if entry.pdf %}
+            {% if link_toggle == 0 -%} ( {%- assign link_toggle=1 -%} {%- else -%} , {% endif %}
+            <a href="{{entry.pdf}}" target="_blank">PDF</a>
+            {% endif %}
 
-    {% endfor %}
+            {% if entry.slides %}
+            {% if link_toggle == 0 -%} ( {%- assign link_toggle=1 -%} {%- else -%} , {% endif %}
+            <a href="{{entry.slides}}" target="_blank">Slides</a>
+            {% endif %}
+            {% if link_toggle == 1 -%} ) {%- endif %}
+          </td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>

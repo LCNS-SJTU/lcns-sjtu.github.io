@@ -13,6 +13,7 @@ The website will recognize the key-value pairs you provided to generate the sche
 - `pdf` (link to paper pdf)
 - `author` (authors of the paper)
 - `pdf` (optional)
+- `slides` (required, may uploaded after JC)
 
 Here's an example.
 
@@ -23,7 +24,18 @@ Here's an example.
   url: http://link.aps.org/doi/10.1103/PhysRev.47.777
   pdf: https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777
   authors: Einstein, A. and Podolsky, B. and Rosen, N.
+  slides: https://202.120.13.81:10003/d/f/jgfdjksalg;HNUIGIOPewfjagHEheHpqnfioap
 ```
+
+### Upload slides and share link
+
+1. Upload your slides (better with PDF format) to `/share/Group Meeting/` in our Synology Drive with filename `YYYY-MM-DD-{slides title}-{yourname}.pdf`
+
+2. Then open the link generation page. <br/>
+  ![get-link](gen-link.jpg)
+
+3. Copy the shared **link** and click **Apply** to generate the link. **Please set the privacy settings to Internel**, as shown in the figure below.<br/>
+  ![copy-link](copy-link.jpg)
 
 ## Adding Journal Club Summary
 

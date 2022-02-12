@@ -669,3 +669,16 @@ html.transition *:after {
   color: white;
   font-size: 3em;
 }
+
+// Table of Journal Clubs
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: var(--global-hover-color-light);
+}
+
+tbody tr.future-item {
+  p {
+    color: rgb(75, 128, 68);
+  }
+}

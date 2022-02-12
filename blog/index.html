@@ -69,7 +69,10 @@ pagination:
   <h3><b>Meetings</b></h3>
   <p>Below are the upcoming journal clubs, as well as summaries of previous meetings. </a></p>
   {% include meetings.html filter="future" %}
-  <a href="{{ '/blog/all_meetings/' | relative_url}}"> all meetings</a>
+  <a href="{{ '/blog/all_meetings/' | relative_url}}" 
+    class="btn btn-outline" role="button" aria-pressed="true"
+    style="border-radius: 15px; border: 2px solid var(--global-text-color); color: var(--global-text-color)"
+    > All meetings</a>
 
   <!-- Previous JC summaries -->
   <div class="header-bar" style="padding-top:4rem; padding-bottom: 1rem;">
