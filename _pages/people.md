@@ -14,7 +14,7 @@ header_background_image: assets/img/4.jpg
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized people -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h3 class="category">{{ category }}</h3>
   {%- assign categorized_people = site.people | where: "category", category -%}
   {%- assign sorted_people = categorized_people | sort: "year" %}
   <!-- Generate cards for each people -->

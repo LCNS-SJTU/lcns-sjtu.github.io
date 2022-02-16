@@ -15,9 +15,12 @@
     </thead>  
 
     <tbody>
-      {% assign nowTimestamp = 'now' | date: '%s' %}
-      {% assign nowTimestamp1 = 'now' %}
-  
+      {% assign nowTimestamp = "
+        <script>date=new Date(); 
+        var monthArr = ['January','February','March','April','May','June','July','August','September','October','November','December']; 
+        document.write(monthArr[date.getMonth()]+' '+date.getDate()+', '+date.getFullYear());</script>
+        " | date: "%s" %}
+
       {% if filter contains 'future' %}
         {% assign sortMeetingInfo = site.data.meeting_info | sort: 'date' %}
       {% else %}
@@ -33,8 +36,7 @@
         {% endif %}
         
         <!-- Set the style of every row. -->
-        {% if diffSeconds > 0%}<tr class="future-item">{% else %}<tr>{% endif %}
-          
+        {% if diffSeconds > 0 %}<tr class="future-item">{% else %}<tr>{% endif %}
           <!-- date -->
           <th scope="row">
             <p style="text-align: right;">{{entry.date | date: "<b>%Y/%m/%d</b> <br/> %l:%M %p"}}</p>

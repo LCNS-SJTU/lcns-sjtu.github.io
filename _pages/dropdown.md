@@ -1,8 +1,7 @@
 ---
 layout: page
 title: more
-nav: true
-order: 3
+nav: false
 dropdown: true
 children: 
     - title: projects
@@ -10,4 +9,7 @@ children:
     - title: divider
     - title: teaching
       permalink: /teaching/
+    - title: divider
+    - title: resource
+      permalink: /resource/
 ---
