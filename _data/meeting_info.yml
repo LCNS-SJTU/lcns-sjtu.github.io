@@ -1,3 +1,11 @@
+- presenter: Kai Chen
+  date: 2022-02-23 19:00:00
+  paper: The role of population structure in computations through neural dynamics
+  url: https://www.biorxiv.org/content/10.1101/2020.07.03.185942v2
+  pdf: https://www.biorxiv.org/content/10.1101/2020.07.03.185942v2.full.pdf
+  authors: Alexis Dubreuil, Adrian Valente, Manuel Beiran, Francesca Mastrogiuseppe, Srdjan Ostojic
+  slides:
+
 - presenter: Bo Wang
   date: 2022-02-16 19:00:00
   paper: Self-backpropagation of synaptic modifications elevates the efficiency of spiking and artificial neural networks
