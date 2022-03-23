@@ -1,3 +1,171 @@
+- presenter: Xuexing Du
+  date: 2022-05-09 20:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Rong Chen
+  date: 2022-05-04 19:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Mingzhang Wang
+  date: 2022-05-02 20:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Jingyang Ma
+  date: 2022-04-27 19:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Bo Wang
+  date: 2022-04-25 20:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Ziling Wang
+  date: 2022-04-20 19:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Licheng Zou
+  date: 2022-04-18 20:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Kai Chen
+  date: 2022-04-13 19:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Zheng Wang
+  date: 2022-04-11 20:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Muhan Ma
+  date: 2022-04-06 19:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Boran Yang
+  date: 2022-04-04 20:00:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Chongming Liu
+  date: 2022-03-30 19:30:00
+  paper: TBD
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Jingcheng Shi
+  date: 2022-03-28 20:00:00
+  paper: Circuit mechanisms for the maintenance and manipulation of information in working memory
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Rong Chen
+  date: 2022-03-23 19:30:00
+  paper: The node-similarity distribution of complex networks and it's application in link prediction
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Jingyang Ma
+  date: 2022-03-21 20:00:00
+  paper: "Avoiding catastrophe: active dendrites enable multi-task learning in dynamic environments"
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Chongming Liu
+  date: 2022-03-16 19:00:00
+  paper: Transmission trend of the COVID-19 pandemic predicted by dendritic neural regression
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Zheng Wang
+  date: 2022-03-14 20:00:00
+  paper: "Random Matrix Methods for Machine Learning: When Theory meets Applications"
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Licheng Zou
+  date: 2022-03-09 19:00:00
+  paper: Linking Connectivity, Dynamics, and Computations in Low-Rank Recurrent Neural Networks (2)
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Licheng Zou 
+  date: 2022-03-07 20:00:00
+  paper: Linking Connectivity, Dynamics, and Computations in Low-Rank Recurrent Neural Networks (1)
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Ziling Wang
+  date: 2022-03-02 19:00:00
+  paper: The striatum organizes 3D behavior via moment-to-moment action selection
+  url:
+  pdf:
+  authors:
+  slides:
+
+- presenter: Mingzhang Wang
+  date: 2022-02-28 20:00:00
+  paper: Larger GPU-accelerated brain simulations with procedural connectivity
+  url:
+  pdf:
+  authors:
+  slides:
+
 - presenter: Kai Chen
   date: 2022-02-23 19:00:00
   paper: The role of population structure in computations through neural dynamics
@@ -5,6 +173,14 @@
   pdf: https://www.biorxiv.org/content/10.1101/2020.07.03.185942v2.full.pdf
   authors: Alexis Dubreuil, Adrian Valente, Manuel Beiran, Francesca Mastrogiuseppe, Srdjan Ostojic
   slides: https://202.120.13.81:10003/d/f/ncS8PqyfiZoJlU3kmfcmzNq4hvpiZt0g
+
+- presenter: Xuexing Du
+  date: 2022-02-21 20:00:00
+  paper: Analysis and applications of the Locally Competitive Algorithm
+  url:
+  pdf:
+  authors:
+  slides:
 
 - presenter: Bo Wang
   date: 2022-02-16 19:00:00
