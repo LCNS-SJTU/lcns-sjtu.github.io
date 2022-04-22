@@ -13,7 +13,7 @@ For more about how to use Jekyll, check out [this tutorial](https://www.taniaras
 
 ### Installation
 
-Please install [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) on your system.
+Please install Ruby, Bundler and Jekyll with the help of [link](https://jekyllrb.com/docs/installation/) here on your system.
 ### Local setup
 
 Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first [fork](https://guides.github.com/activities/forking/) the repo from `github.com:LCNS-SJTU/lcns-sjtu.github.io` to `github.com:<your-username>/<your-repo-name>` and do the following:
@@ -29,13 +29,13 @@ Now, feel free to change the forked repository however you like. After you are d
 
 ## Features
 
-### People
-
-Check [here](docs/people.md) for docs about adding new profiles of group members.
-
 ### Journal Club
 
 Check [here](docs/journal_club.md) for docs about adding materials for new journal clubs.
+
+### People
+
+Check [here](docs/people.md) for docs about adding new profiles of group members.
 
 ### Publications
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Muhan Ma
-description: 
+description: Graduate of Imperial College London
 img: #assets/img/bio-photo.jpg
 redirect:
 year: 2021

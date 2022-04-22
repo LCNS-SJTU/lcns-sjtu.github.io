@@ -7,5 +7,5 @@ redirect: https://ins.sjtu.edu.cn/people/songtingli/
 year: 2018
 category: Principal Investigator
 email: songting@sjtu.edu.cn
-github_username: songting858
+github_username:
 ---
