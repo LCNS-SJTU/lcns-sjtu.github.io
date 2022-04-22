@@ -6,6 +6,7 @@ description: #publications by categories in reversed chronological order. genera
 years: [2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012]
 nav: true
 order: 2
+title_off: true
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

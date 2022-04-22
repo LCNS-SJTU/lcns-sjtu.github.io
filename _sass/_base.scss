@@ -134,8 +134,8 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: var(--global-bg-color-light);
+  opacity: 1.0;
 }
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -286,10 +286,10 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  border-bottom: 1px solid var(--global-divider-color);
+  // border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
@@ -472,6 +472,7 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: left;
+    font-weight: bolder;
   }
 }
 
@@ -665,27 +666,30 @@ html.transition *:after {
 }
 
 .header-background .img {
-  // background-image: url("../img/splash_header.jpg");
+  background-image: var(--global-splash);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 10em;
-  margin-bottom: 2em;
-  margin-top: 0em;
+  margin-bottom: -1em;
+  margin-top: -4em;
 }
 
 .header-background .text {
   margin-top: -8em;
-  text-align: left;
-  margin-left: 5em;
+  text-align: center;
+  margin-left: 0em;
   padding-bottom: 3em;
-  color: white;
-  font-weight: bold;
+  color: var(--global-text-color);
+  font-weight: bolder;
 }
 
 .header-background .text h2 {
-  font-weight: bold;
-  color: white;
+  font-weight: bolder;
+  color: var(--global-text-color);
+  margin-left: 8.5em;
+  margin-right: 8.5em;
+  background-color: var(--global-bg-color-light);
   font-size: 3em;
 }
 
@@ -698,6 +702,6 @@ html.transition *:after {
 
 tbody tr.future-item {
   p {
-    color: rgb(75, 128, 68);
+    color: $green-color;
   }
 }

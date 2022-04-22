@@ -6,7 +6,7 @@ description:
 nav: true
 order: 1
 display_categories: [Principal Investigator, PhD Candidate, Master's Student, Undergraduate, Visiting Scholar, Alumni]
-header_background_image: assets/img/4.jpg
+title_off: true
 ---
 
 <!-- pages/people.md -->
