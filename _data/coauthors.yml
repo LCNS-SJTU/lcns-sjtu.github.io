@@ -1,18 +1,11 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Li":
+  - firstname: ["Songting", "S."]
+    url: https://ins.sjtu.edu.cn/people/songtingli/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Zhou":
+  - firstname: ["Douglas", "D."]
+    url: https://ins.sjtu.edu.cn/people/zdz/ 
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
-
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Tian":
+  - firstname: ["Zhong-qi K.", "Zhong-qi Kyle", "Z. K.", "Zhong-qi", "Z."]
+    url: https://lcns-sjtu.github.io/people/zhongqi_tian/ 
