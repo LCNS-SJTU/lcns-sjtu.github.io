@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Zhongqi Tian
-description: PhD
+description: 2014-2020 PhD
 # img: assets/img/bio-photo.jpg
 redirect:
 year: 2014 
