@@ -15,9 +15,12 @@
           </div>
           <div class="col-7 ml-4">
             <h4 class="card-title">{{people.title}}</h4>
-            <hr style="border: 1px solid;  color:var(--global-divider-color)"/>
+            <hr>
 
             <div class="row">
+            {% if people.category == "Alumni" %}
+              <p class="card-item">{{people.description}}</p>
+            {% else %}
               <div class="col-3">
                 {% if people.redirect -%}
                   <a href="{{ people.redirect }}" class="card-link" title="link"><i class="fas fa-link"></i></a>
@@ -40,6 +43,7 @@
                 <a href="https://github.com/{{ people.github_username }}" class="card-link" title="GitHub"><i class="fab fa-github"></i></a>
                 </div>
               {%- endif %}
+            {% endif %}
 
             </div>
           </div>
