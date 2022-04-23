@@ -5,7 +5,7 @@ description:
 img: #assets/img/your-profile.jpg
 redirect:
 year: # year you join the lab
-category: # PhD Candidate, Master's Student, Undergraduate or Visiting Scholar
+category: # PhD Students, Master's Students, Undergraduates or Visiting Students
 email: 
 github_username: 
 google_scholar: 

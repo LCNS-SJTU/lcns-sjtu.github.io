@@ -14,7 +14,7 @@ To add a new people page, follow these steps:
     img: assets/img/{firstname_lastname}.jpg 
     redirect: 
     year: 2022 
-    category: # PhD Candidate, Master's Student, Undergraduate or Visiting Scholar
+    category: # PhD Students, Master's Students, Undergraduates or Visiting Students
     email: 
     github_username: 
     google_scholar: 
@@ -27,7 +27,7 @@ To add a new people page, follow these steps:
     - `img`: the path of profile your add last step.
     - `redirect`: add link of your own personal website if you have one, otherwise leave it empty.
     - `year`: year you join the lab.
-    - `category`: your identity, and please use one of `PhD Candidate`, `Master's Student`, `Undergraduate`, `Visiting Scholar`.
+    - `category`: your identity, and please use one of `PhD Students`, `Master's Students`, `Undergraduates`, `Visiting Students`.
     - `email`: (required)
     - `github_username`: (optional) your github username.
     - `google_scholar`: (optional) your google scholar personal site.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guanchun Li
-description: PhD student from the Courant Institute at New York University
+description: 2020-2021 visiting student
 img: assets/img/guanchun_li.jpg
 redirect:
 year: 2021 

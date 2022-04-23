@@ -5,7 +5,7 @@ permalink: /people/
 description:
 nav: true
 order: 1
-display_categories: [Principal Investigator, PhD Candidate, Master's Student, Undergraduate, Visiting Scholar, Alumni]
+display_categories: [Principal Investigators, PhD Students, Master's Students, Undergraduates, Visiting Students, Alumni]
 title_off: true
 ---
 
