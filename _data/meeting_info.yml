@@ -6,7 +6,7 @@
   authors:
   slides:
 
-- presenter: Rong Chen
+- presenter: Bo Wang
   date: 2022-05-09 20:00:00
   paper: TBD
   url:
@@ -30,20 +30,20 @@
   authors:
   slides:
 
-- presenter: Bo Wang
+- presenter: Rong Chen
   date: 2022-04-27 19:30:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
+  paper: Multi-level Graph Convolutional Networks for Cross-platform Anchor Link Prediction
+  url: https://dl.acm.org/doi/10.1145/3394486.3403201
+  pdf: https://dl.acm.org/doi/pdf/10.1145/3394486.3403201
+  authors: Hongxu Chen, Hongzhi YIN, Xiangguo Sun, Tong Chen, Bogdan Gabrys, Katarzyna Musial
   slides:
 
 - presenter: Ziling Wang
   date: 2022-04-25 20:00:00
   paper: Untangling stability and gain modulation in cortical circuits with multiple interneuron classes
-  url:
-  pdf:
-  authors:
+  url: https://www.biorxiv.org/content/10.1101/2020.06.15.148114.abstract
+  pdf: https://www.biorxiv.org/content/10.1101/2020.06.15.148114v2.full.pdf
+  authors: Hannah Bos, Anne-Marie Oswald, Brent Doiron
   slides:
 
 - presenter: Licheng Zou
@@ -56,11 +56,11 @@
 
 - presenter: Kai Chen
   date: 2022-04-18 20:00:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
-  slides:
+  paper: Organizing recurrent network dynamics by task-computation to enable continual learning 
+  url: https://proceedings.neurips.cc/paper/2020/hash/a576eafbce762079f7d1f77fca1c5cc2-Abstract.html
+  pdf: https://proceedings.neurips.cc/paper/2020/file/a576eafbce762079f7d1f77fca1c5cc2-Paper.pdf
+  authors: Lea Duncker, Laura Driscoll, Krishna V. Shenoy, Maneesh Sahani, David Sussillo
+  slides: https://202.120.13.81:10003/d/f/oOrPT4FvkHgLRp8OUDVFohC45RfZ5P8i
 
 - presenter: Zheng Wang
   date: 2022-04-13 19:00:00
