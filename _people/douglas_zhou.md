@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 title: Douglas Zhou
 description: 
 img: assets/img/douglas_zhou.jpg

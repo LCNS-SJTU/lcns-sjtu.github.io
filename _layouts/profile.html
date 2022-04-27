@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<!-- profile.html -->
+        <div class="post">
+
+          {% if page.img %}
+            <div class="profile float-left">
+                {% include figure.html path=page.img class="img-fluid z-dept-1 rounded-circle" alt=page.profile.image -%}
+            </div>
+          {% endif %}
+
+          <article>
+            {{ content }}
+          </article>
+
+        </div>

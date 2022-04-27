@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 title: Songting Li
 description: 
 img: assets/img/songting_li.jpg

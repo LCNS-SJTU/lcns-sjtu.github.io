@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 title: Kai Chen
 description:
 img: assets/img/kai_chen.jpg

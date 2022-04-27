@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: profile
 title: name
 description:   
 img: #assets/img/your-profile.jpg
