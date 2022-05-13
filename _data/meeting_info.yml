@@ -1,25 +1,25 @@
 - presenter: Xuexing Du
-  date: 2022-05-11 19:30:00
-  paper: TBD
+  date: 2022-05-13 13:30:00
+  paper: Introduction to the neural circuit for locomotion in C.elegans 
   url:
   pdf:
   authors:
   slides:
 
 - presenter: Bo Wang
-  date: 2022-05-09 20:00:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
+  date: 2022-05-16 19:30:00
+  paper: "Learning to live with Dale's principle: ANNs with separate excitatory and inhibitory units"
+  url: https://www.biorxiv.org/content/10.1101/2020.11.02.364968v2.abstract
+  pdf: https://www.biorxiv.org/content/10.1101/2020.11.02.364968v2.full.pdf
+  authors: Jonathan Cornford, Damjan Kalajdzievski, Marco Leite, Amélie Lamarquette Dimitri M. Kullmann, Blake Richards
   slides:
 
 - presenter: Mingzhang Wang
   date: 2022-05-04 19:30:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
+  paper: Training dynamically balanced excitatory-inhibitory networks
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220547
+  pdf: https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0220547&type=printable
+  authors: Alessandro Ingrosso, L. F. Abbott
   slides:
 
 - presenter: Jingyang Ma
@@ -72,19 +72,42 @@
 
 - presenter: Muhan Ma
   date: 2022-04-11 20:00:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
-  slides:
+  paper: Macroscopic gradients of synaptic excitation and inhibition in the neocortex
+  url: https://www.nature.com/articles/s41583-020-0262-x
+  pdf: https://www.nature.com/articles/s41583-020-0262-x.pdf
+  authors: Xiao-Jing Wang
 
 - presenter: Boran Yang
   date: 2022-04-06 19:00:00
-  paper: TBD
-  url:
-  pdf:
-  authors:
-  slides:
+  paper: Sensory-Motor Cortices Shape Functional Connectivity Dynamics in the Human Brain
+  url: https://www.nature.com/articles/s41467-021-26704-y
+  pdf: https://www.nature.com/articles/s41467-021-26704-y.pdf?origin=ppub
+  authors: Xiaolu Kong, Ru Kong, Csaba Orban, Peng Wang, Shaoshi Zhang, Kevin Anderson, Avram Holmes, John D. Murray, Gustavo Deco, Martijn van den Heuvel & B. T. Thomas Yeo
+  slides: https://202.120.13.81:10003/d/f/oHJserH9rZzN3PFafXcmpAmiLQvnJYS8
+
+- presenter: Boran Yang
+  date: 2022-02-09 14:00:00
+  paper: "ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction"
+  url: https://arxiv.org/abs/2105.10446
+  pdf: https://arxiv.org/pdf/2105.10446.pdf
+  authors: Kwan Ho Ryan Chan, Yaodong Yu, Chong You, Haozhi Qi, John Wright, Yi Ma
+  slides: https://202.120.13.81:10003/d/f/nQAztzFvCxhDwgtIEtkUF8ye4PBajJK9
+
+- presenter: Boran Yang
+  date: 2021-11-29 19:30:00
+  paper: Biophysical Modeling of Large-Scale Brain Dynamics and Applications for Computational Psychiatry
+  url: https://www.sciencedirect.com/science/article/pii/S2451902218301782
+  pdf: https://www.sciencedirect.com/science/article/pii/S2451902218301782
+  authors: John D. Murray, Murat Demirtaş, and Alan Anticevic 
+  slides: https://202.120.13.81:10003/d/f/mVULyC0ObgSiEYkhIy9Idbh1htqTMHWu
+
+- presenter: Boran Yang
+  date: 2021-8-18 19:30:00
+  paper: "Graph neural fields: A framework for spatiotemporal dynamical models on the human connectome"
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008310
+  pdf: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008310&type=printable
+  authors: Marco Aqil, Selen Atasoy, Morten L. Kringelbach, Rikkert Hindriks
+  slides: https://202.120.13.81:10003/d/f/lH9b7iTi0K438GZKaHLEK9uWT8gq2wsg
 
 - presenter: Chongming Liu
   date: 2022-03-30 19:30:00
