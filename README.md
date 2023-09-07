@@ -7,6 +7,22 @@
 
 Website is powered by [Jekyll](https://jekyllrb.com/) with [al-folio](https://github.com/alshedivat/al-folio) theme.
 
+## Table Of Contents
+
+- [Lab of Computational Neuroscience @SJTU](#lab-of-computational-neuroscience-sjtu)
+  - [Table Of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+    - [Local setup](#local-setup)
+    - [Installation](#installation)
+      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
+      - [Local Setup (Standard)](#local-setup-standard)
+  - [Quick Guide](#quick-guide)
+    - [Create a pull request (PR)](#create-a-pull-request-pr)
+    - [Journal Club](#journal-club)
+    - [People](#people)
+    - [Publications](#publications)
+  - [TODO](#todo)
+
 ## Getting started
 
 ### Local setup
@@ -24,7 +40,7 @@ For a hands-on walkthrough of al-folio installation, check out [this cool video 
 
 You need to take the following steps to get `al-folio` up and running in your local machine:
 
-- First, [install docker](https://docs.docker.com/get-docker/)
+- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
 - Then, clone this repository to your machine:
 
 ```bash
@@ -35,33 +51,24 @@ $ cd <your-repo-name>
 Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
 
 ```bash
-$ ./bin/dockerhub_run.sh
+$ docker-compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 300MB or so.
 
-Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`bin/dockerhub_run.sh`) to render the webpage with all you changes. Also, make sure to commit your final changes.
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
-<details><summary>(click to expand) <strong>Build your own docker image (more advanced):</strong></summary>
+> To change port number, you can edit `docker-compose.yml` file.
+
+<details><summary>(click to expand) <strong>Build your own docker image:</strong></summary>
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
-First, download the necessary modules and install them into a docker image called `al-folio:Dockerfile` (this command will build an image which is used to run your website afterwards. Note that you only need to do this step once. After you have the image, you no longer need to do this anymore):
-  
-
+Build and run a new docker image using:
 ```bash
-$ ./bin/docker_build_image.sh  
+$ docker-compose -f docker-local.yml up
 ```
-
-Run the website!
-
-```bash
-$ ./bin/docker_run.sh
-```
-
-> To change port number, you can edit `docker_run.sh` file.
-
-> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `docker_build_image.sh`! It will download ruby and jekyll and install all ruby packages again from scratch.
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
 
@@ -75,7 +82,7 @@ Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
 $ cd <your-repo-name>
 $ bundle install
-$ bundle exec jekyll serve
+$ bundle exec jekyll serve --lsi
 ```
 
 Now, feel free to change the forked repository however you like. After you are done, **commit** your final changes.
