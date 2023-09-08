@@ -852,7 +852,7 @@ html.transition *:after {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 10em;
+  height: 12em;
   margin-bottom: -1em;
   margin-top: -4em;
 }
