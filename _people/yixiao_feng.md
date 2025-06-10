@@ -5,6 +5,6 @@ description: 2022-2025 undergraduate student
 img: assets/img/yixiao_feng.jpg
 redirect:
 year: 2022
-category: Undergraduates
+category: Alumni
 email: newtonpula@sjtu.edu.cn
 ---
