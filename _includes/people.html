@@ -15,12 +15,12 @@
           {% endif %}
           </div>
           <div class="col-7 col-sm-8 col-md-7 ml-4">
-            <h5 class="card-title">{{people.title}}</h5>
+            <h6 class="card-title">{{people.title}}</h6>
             <hr>
 
             <div class="row">
             {% if people.category == "Alumni" %}
-              <p class="card-item">{{people.description}}</p>
+              <p class="card-item" style="font-size: 0.7em">{{people.description}}</p>
             {% else %}
               <div class="col-3">
                 {% if people.redirect -%}
