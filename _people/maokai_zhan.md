@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: Maikai Zhan (占毛恺)
+title: Maokai Zhan (占毛恺)
 description: 2022-2023 undergraduate # PhD Students @SJTU
 img: assets/img/maokai_zhan.jpg
 redirect:
