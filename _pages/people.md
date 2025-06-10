@@ -5,8 +5,8 @@ permalink: /people/
 description:
 nav: true
 nav_order: 1
-# display_categories: [Principal Investigators, Postdocs, PhD Students, Undergraduates, Alumni]
-display_categories: [Principal Investigators, Postdocs, PhD Students, Master's Students, Undergraduates, Visiting Students, Alumni]
+display_categories: [Principal Investigators, Postdocs, PhD Students, Undergraduates, Visiting Students, Alumni]
+# display_categories: [Principal Investigators, Postdocs, PhD Students, Master's Students, Undergraduates, Visiting Students, Alumni]
 title_off: true
 ---
 
