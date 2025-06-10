@@ -1,6 +1,6 @@
 ---
 layout: profile
-title: Jingyao Zhang (张劲尧)
+title: Jingyao Zhang (张敬尧)
 description: 
 img: assets/img/jingyao_zhang.jpg
 redirect:
