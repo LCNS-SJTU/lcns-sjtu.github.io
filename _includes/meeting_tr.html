@@ -52,6 +52,10 @@
           {% if link_toggle == 0 -%} ( {%- assign link_toggle=1 -%} {%- else -%} , {% endif %}
           <a href="{{entry.slides}}" target="_blank">Slides</a>
           {% endif %}
+          {% if entry.video %}
+          {% if link_toggle == 0 -%} ( {%- assign link_toggle=1 -%} {%- else -%} , {% endif %}
+          <a href="{{entry.video}}" target="_blank">Video</a>
+          {% endif %}
           {% if link_toggle == 1 -%} ) {%- endif %}
         </td>
 

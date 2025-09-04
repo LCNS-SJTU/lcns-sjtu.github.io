@@ -6,6 +6,15 @@
   authors: Zixiang Luo, Kaining Peng, Zhichao Liang, Shengyuan Cai, Chenyu Xu, Dan Li, Yu Hu, Changsong Zhou & Quanying Liu
   slides:
 
+- presenter: Zhenyuan Jin
+  date: 2025-08-28 10:00:00
+  paper: "Correlation between neural spike trains increases with firing rate"
+  url: https://www.nature.com/articles/nature06028
+  pdf: https://www.nature.com/articles/nature06028.pdf
+  authors: Jaime de la Rocha, Brent Doiron, Eric Shea-Brown, Krešimir Josić & Alex Reyes
+  slides:
+  video: https://202.120.13.81:10003/d/f/14lWK918qyHuAgMIB6ecskKnLD1MMQwr
+
 - presenter: Lishuo Zhang
   date: 2024-04-18 10:00:00
   paper: "Higher-order Granger reservoir computing: simultaneously achieving scalable complex structures inference and accurate dynamics prediction"
