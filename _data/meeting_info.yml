@@ -1,3 +1,11 @@
+- presenter: Xiaoyu Chen
+  date: 2025-09-04 10:00:00
+  paper: "Mapping effective connectivity by virtually perturbing a surrogate brain"
+  url: https://www.nature.com/articles/s41592-025-02654-x
+  pdf: https://www.nature.com/articles/s41592-025-02654-x.pdf
+  authors: Zixiang Luo, Kaining Peng, Zhichao Liang, Shengyuan Cai, Chenyu Xu, Dan Li, Yu Hu, Changsong Zhou & Quanying Liu
+  slides:
+
 - presenter: Lishuo Zhang
   date: 2024-04-18 10:00:00
   paper: "Higher-order Granger reservoir computing: simultaneously achieving scalable complex structures inference and accurate dynamics prediction"
