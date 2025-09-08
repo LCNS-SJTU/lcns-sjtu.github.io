@@ -5,7 +5,8 @@ description:
 img: assets/img/xuexing_du.png
 redirect:
 year: 2018
-category: PhD Students
+# category: PhD Students
+category: Alumni
 email: duxuexing@sjtu.edu.cn
 github_username: shishangzuiqiang
 ---
