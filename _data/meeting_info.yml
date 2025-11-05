@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Jialin Duan
+  date: 2025-11-05 14:00:00
+  paper: Genetic influences on hub connectivity of the human connectome
+  url: https://www.nature.com/articles/s41467-021-24306-2
+  pdf: https://www.nature.com/articles/s41467-021-24306-2.pdf
+  authors: Aurina Arnatkeviciute, Ben D. Fulcher, Stuart Oldham, Jeggan Tiego, Casey Paquola, Zachary Gerring, Kevin Aquino, Ziarih Hawi, Beth Johnson, Gareth Ball, Marieke Klein, Gustavo Deco, Barbara Franke, Mark A. Bellgrove & Alex Fornito
+  slides:
+  video: 
+
 - presenter: Chongming Liu
   date: 2025-10-08 13:30:00
   paper: High-level visual representations in the human brain are aligned with large language models
