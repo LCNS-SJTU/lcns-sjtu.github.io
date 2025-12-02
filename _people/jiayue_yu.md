@@ -5,6 +5,6 @@ description:
 img: assets/img/jiayue_yu.png
 redirect:
 year: 2023
-category: PhD Students
+category: Master's Students
 email: yyyy1111@sjtu.edu.cn
 ---
