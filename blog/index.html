@@ -53,7 +53,7 @@ pagination:
     style="border-radius: 15px; border: 2px solid var(--global-text-color); color: var(--global-text-color)"
     > All meetings</a>
 
-  <!-- Previous JC summaries -->
+  <!-- Previous JC summaries
   <div class="header-bar" style="padding-top:4rem; padding-bottom: 1rem;">
     <hr>
     <h2>Latest Summaries</h2>
@@ -70,10 +70,10 @@ pagination:
         {% endunless %}
       {% endfor %}
     </ul>
-  </div>
+  </div> -->
   {% endif %}
 
-  <ul class="post-list">
+  <!-- <ul class="post-list">
     {% for post in paginator.posts %}
 
     {% if post.external_source == blank %}
@@ -131,7 +131,7 @@ pagination:
     </li>
 
     {% endfor %}
-  </ul>
+  </ul> -->
 
   {% include pagination.html %}
 
