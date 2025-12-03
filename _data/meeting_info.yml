@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Runguang Zhou
+  date: 2025-12-03 14:00:00
+  paper: "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search"
+  url: https://arxiv.org/abs/2504.08066
+  pdf: https://arxiv.org/pdf/2504.08066
+  authors: Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha
+  slides:
+  video: 
+
 - presenter: Jialin Duan
   date: 2025-11-05 14:00:00
   paper: Genetic influences on hub connectivity of the human connectome
