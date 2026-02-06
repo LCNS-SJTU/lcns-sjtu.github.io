@@ -7,6 +7,24 @@
 #   slides:
 #   video: 
 
+- presenter: Zheng Wang
+  date: 2026-01-27 13:30:00
+  paper: "Reinforcement learning and computational neuroscience, including TD learning and dopamine, belief-state inference, model-based vs model-free control, replay, and successor representation"
+  url: 
+  pdf: 
+  authors: 
+  slides:
+  video: 
+
+- presenter: Jingyao Zhang
+  date: 2026-01-13 14:00:00
+  paper: Auditory Adaptation
+  url: 
+  pdf: 
+  authors: 
+  slides:
+  video: 
+
 - presenter: Jiayue Yu
   date: 2025-12-31 13:30:00
   paper: Mesoscale simulations predict the role of synergistic cerebellar plasticity during classical eyeblink conditioning
