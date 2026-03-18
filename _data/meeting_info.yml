@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Jingyang Ma
+  date: 2026-03-18 10:00:00
+  paper: Spiking world model with multicompartment neurons for model-based reinforcement learning
+  url: https://www.pnas.org/doi/10.1073/pnas.2513319122
+  pdf: https://www.pnas.org/doi/epdf/10.1073/pnas.2513319122
+  authors: Yinqian Sun, Feifei Zhao, Mingyang Lyu, and Yi Zeng
+  slides:
+  video: 
+
 - presenter: Shouwei Luo
   date: 2026-02-11 13:30:00
   paper: Cerebellar-driven cortical dynamics can enable task acquisition, switching and consolidation
@@ -32,7 +41,7 @@
   pdf: 
   authors: 
   slides:
-  video: 
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/16ddM7I67ByqrnP5Kh30PTbinUDsg8ey
 
 - presenter: Jiayue Yu
   date: 2025-12-31 13:30:00
@@ -49,8 +58,8 @@
   url: https://arxiv.org/abs/2504.08066
   pdf: https://arxiv.org/pdf/2504.08066
   authors: Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha
-  slides:
-  video: 
+  slides: https://zhoulab-sjtu.quickconnect.cn/d/f/164USiPi2U47asPNWcHQoMYJRO1njCBT
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/1649aL3DCGp5G2sYlQzrUQX1g3Evja2R
 
 - presenter: Jialin Duan
   date: 2025-11-05 14:00:00
@@ -59,7 +68,7 @@
   pdf: https://www.nature.com/articles/s41467-021-24306-2.pdf
   authors: Aurina Arnatkeviciute, Ben D. Fulcher, Stuart Oldham, Jeggan Tiego, Casey Paquola, Zachary Gerring, Kevin Aquino, Ziarih Hawi, Beth Johnson, Gareth Ball, Marieke Klein, Gustavo Deco, Barbara Franke, Mark A. Bellgrove & Alex Fornito
   slides:
-  video: 
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/16dhoG8FaeZ72vxvfRlkWAVsWSeQWnOq
 
 - presenter: Chongming Liu
   date: 2025-10-08 13:30:00
