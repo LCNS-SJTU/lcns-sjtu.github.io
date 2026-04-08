@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Mingzhang Wang
+  date: 2026-04-08 10:00:00
+  paper: "Excitation-inhibition balance in cortical networks with heterogeneous cluster sizes and its applications"
+  url: https://arxiv.org/abs/2508.12541
+  pdf: https://arxiv.org/pdf/2508.12541
+  authors: Abhijit Chakraborty, Greg Morrison
+  slides:
+  video: 
+
 - presenter: Zhenyuan Jin
   date: 2026-03-25 10:00:00
   paper: "Optimal Griffiths Phase in Heterogeneous Human Brain Networks: Brain Criticality Embracing Stability and Flexibility across Individuals"
