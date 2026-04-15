@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Xiaoyu Chen
+  date: 2026-04-15 10:00:00
+  paper: "Structure in noise: Recurrent connectivity shapes neural variability to balance perceptual and cognitive demands in the human brain"
+  url: https://www.sciencedirect.com/science/article/pii/S0896627325007962
+  pdf: https://www.sciencedirect.com/science/article/pii/S0896627325007962/pdf
+  authors: Jonas Terlau, Jan Martini, Randolph F. Helfrich & Philipp Berens
+  slides:
+  video: 
+
 - presenter: Mingzhang Wang
   date: 2026-04-08 10:00:00
   paper: "Excitation-inhibition balance in cortical networks with heterogeneous cluster sizes and its applications"
