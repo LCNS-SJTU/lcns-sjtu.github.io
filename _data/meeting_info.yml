@@ -7,14 +7,23 @@
 #   slides:
 #   video: 
 
+- presenter: Yifei Chen
+  date: 2026-04-29 10:00:00
+  paper: "Capturing the emergent dynamical structure in biophysical neural models"
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012572
+  pdf: 
+  authors: Borjan Milinkovic, Lionel Barnett, Olivia Carter, Anil K. Seth, Thomas Andrillon
+  slides:
+  video: 
+
 - presenter: Xiaoyu Chen
   date: 2026-04-15 10:00:00
   paper: "Structure in noise: Recurrent connectivity shapes neural variability to balance perceptual and cognitive demands in the human brain"
   url: https://www.sciencedirect.com/science/article/pii/S0896627325007962
   pdf: https://www.sciencedirect.com/science/article/pii/S0896627325007962/pdf
   authors: Jonas Terlau, Jan Martini, Randolph F. Helfrich & Philipp Berens
-  slides:
-  video: 
+  slides: https://zhoulab-sjtu.quickconnect.cn/d/f/17qWFxnszxCPB1AwvdySAa36NATaojpf
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/17qWCpMW6C2OkO2oDu9cjpS7idHC2i4i
 
 - presenter: Mingzhang Wang
   date: 2026-04-08 10:00:00
