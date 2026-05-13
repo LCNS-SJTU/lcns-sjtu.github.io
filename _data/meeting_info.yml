@@ -7,14 +7,23 @@
 #   slides:
 #   video: 
 
+- presenter: Boran Yang
+  date: 2026-05-13 10:00:00
+  paper: "The Virtual Parkinsonian patient"
+  url: https://www.nature.com/articles/s41540-025-00516-y
+  pdf: https://www.nature.com/articles/s41540-025-00516-y.pdf
+  authors: Marianna Angiolelli, Damien Depannemaecker, Hasnae Agouram, Jean Régis, Romain Carron, Marmaduke Woodman, Letizia Chiodo, Paul Triebkorn, Abolfazl Ziaeemehr, Meysam Hashemi, Alexandre Eusebio, Viktor Jirsa & Pierpaolo Sorrentino
+  slides: 
+  video: 
+
 - presenter: Yifei Chen
   date: 2026-04-29 10:00:00
   paper: "Capturing the emergent dynamical structure in biophysical neural models"
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012572
   pdf: 
   authors: Borjan Milinkovic, Lionel Barnett, Olivia Carter, Anil K. Seth, Thomas Andrillon
-  slides:
-  video: 
+  slides: https://zhoulab-sjtu.quickconnect.cn/d/f/18243UQuNdBzv3L1woN3DPpOIbm3N8jJ
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/18240YGpehfyGdZF83PKUJWXJ76DSOKO
 
 - presenter: Xiaoyu Chen
   date: 2026-04-15 10:00:00
