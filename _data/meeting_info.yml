@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Zheng Wang
+  date: 2026-07-01 10:00:00
+  paper: Dopamine reward prediction errors reflect hidden-state inference across time
+  url: https://www.nature.com/articles/nn.4520
+  pdf: https://www.nature.com/articles/nn.4520.pdf
+  authors: Clara Kwon Starkweather, Benedicte M Babayan, Naoshige Uchida & Samuel J Gershman
+  slides:
+  video: 
+
 - presenter: Jingyao Zhang
   date: 2026-05-27 10:00:00
   paper: GNWT theory(Brain Dynamics Underlying the Nonlinear Threshold for Access to Consciousness, The threshold for conscious report Signal loss and response bias in visual and frontal cortex)
