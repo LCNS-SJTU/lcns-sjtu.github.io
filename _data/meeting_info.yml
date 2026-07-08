@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Zhenyuan Jin
+  date: 2026-07-08 10:00:00
+  paper: Hierarchical timescales in large-scale brain dynamics
+  url: 
+  pdf: 
+  authors: 
+  slides:
+  video: 
+
 - presenter: Zheng Wang
   date: 2026-07-01 10:00:00
   paper: Dopamine reward prediction errors reflect hidden-state inference across time
@@ -14,7 +23,7 @@
   pdf: https://www.nature.com/articles/nn.4520.pdf
   authors: Clara Kwon Starkweather, Benedicte M Babayan, Naoshige Uchida & Samuel J Gershman
   slides:
-  video: 
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/18sOvN5h2JAUl4YelL3qIoHCWibY4uIV
 
 - presenter: Jingyao Zhang
   date: 2026-05-27 10:00:00
