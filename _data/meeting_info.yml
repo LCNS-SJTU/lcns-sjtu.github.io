@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Shouwei Luo
+  date: 2026-07-15 10:00:00
+  paper: Cerebellum learning and representation of temporal statistics
+  url: 
+  pdf: 
+  authors: Devika Narain
+  slides:
+  video: 
+
 - presenter: Zhenyuan Jin
   date: 2026-07-08 10:00:00
   paper: Hierarchical timescales in large-scale brain dynamics
@@ -14,7 +23,7 @@
   pdf: 
   authors: 
   slides:
-  video: 
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/18y7QqJAH4bwWYHqreLcdt5C4WdqJPjC
 
 - presenter: Zheng Wang
   date: 2026-07-01 10:00:00
