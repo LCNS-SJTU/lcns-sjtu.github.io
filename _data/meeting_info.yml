@@ -7,6 +7,24 @@
 #   slides:
 #   video: 
 
+- presenter: Xiaoyu Chen
+  date: 2026-08-05 10:00:00
+  paper: Optimizing Biophysical Large-Scale Brain Circuit Models With Deep Neural Networks
+  url: https://www.biorxiv.org/content/10.1101/2025.04.07.647497v3
+  pdf: https://www.biorxiv.org/content/10.1101/2025.04.07.647497v3.full.pdf
+  authors: Tianchu Zeng, Fang Tian, Shaoshi Zhang, Xin Li, Ai Peng Tan, Bart Larsen, Sina Mansour L., Fang Ji, Joanna Su Xian Chong, Kwong Hsia Yap, Christopher Chen, Nicolai Franzmeier, Sebastian N. Roemer-Cassiano, Sidhant Chopra, Carrisa V. Cocuzza, Justin T. Baker, Juan Helen Zhou, Marielle V. Fortier, Yap Seng Chong, Michael J. Meaney, Xi-Nian Zuo, Nagaendran Kandiah, Woon-Puay Koh, Eric Kwun Kai Ng, Voon Hao Lew, Fiona Jia Wen Goh, Ruben C. Gur, Raquel E. Gur, Tyler M. Moore, Theodore D. Satterthwaite, Gustavo Deco, Avram J. Holmes, and B.T. Thomas Yeo.
+  slides:
+  video: 
+
+- presenter: Shenqi Min
+  date: 2026-07-22 10:00:00
+  paper: Mixture of Cognitive Reasoners Modular Reasoning with Brain-Like Specialization
+  url: https://openreview.net/forum?id=m3jztlHDmG
+  pdf: https://openreview.net/pdf?id=m3jztlHDmG
+  authors: Badr AlKhamissi, C. Nicolò De Sabbata, Greta Tuckute, Zeming Chen, Martin Schrimpf, Antoine Bosselut
+  slides: https://zhoulab-sjtu.quickconnect.cn/d/f/199uU5YpliuOt9KOtMJHFWn5S2UdQBkx
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/199uT5IIJAQu6D0bFeASaETCftp6PtYA
+
 - presenter: Shouwei Luo
   date: 2026-07-15 10:00:00
   paper: Cerebellum learning and representation of temporal statistics
