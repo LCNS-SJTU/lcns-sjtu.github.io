@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Yifei Chen
+  date: 2026-08-12 10:00:00
+  paper: Linear Scaling Causal Discovery from High-Dimensional Time Series by Dynamical Community Detection
+  url: https://journals.aps.org/prl/abstract/10.1103/kd73-93cg
+  pdf: https://journals.aps.org/prl/pdf/10.1103/kd73-93cg
+  authors: Matteo Allione, Vittorio Del Tatto, and Alessandro Laio
+  slides:
+  video: 
+
 - presenter: Xiaoyu Chen
   date: 2026-08-05 10:00:00
   paper: Optimizing Biophysical Large-Scale Brain Circuit Models With Deep Neural Networks
