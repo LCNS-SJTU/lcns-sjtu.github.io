@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Runguang Zhou
+  date: 2026-09-09 10:00:00
+  paper: Simulation and assimilation of the digital human brain
+  url: https://www.nature.com/articles/s43588-024-00731-3
+  pdf: https://www.nature.com/articles/s43588-024-00731-3.pdf
+  authors: Wenlian Lu, Xin Du, Jiexiang Wang, Longbin Zeng, Leijun Ye, Shitong Xiang, Qibao Zheng, Jie Zhang, Ningsheng Xu, Jianfeng Feng & the DTB Consortium
+  slides:
+  video: 
+
 - presenter: Jingyao Zhang
   date: 2026-08-19 10:00:00
   paper: Differential Processing of Isolated Object and Multi-item Pop-Out Displays in LIP and PFC
