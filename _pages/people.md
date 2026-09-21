@@ -17,6 +17,10 @@ title_off: true
   {%- for category in page.display_categories %}
   <h3 class="category">{{ category }}</h3>
   {%- assign categorized_people = site.people | where: "category", category -%}
+  {%- if category == "Visiting Students" -%}
+    {%- assign visiting_students = site.people | where: "category", "Visiting Student" -%}
+    {%- assign categorized_people = categorized_people | concat: visiting_students -%}
+  {%- endif -%}
   {%- assign sorted_people = categorized_people | sort: "year" %}
   <!-- Generate cards for each people -->
   <div class="row">
