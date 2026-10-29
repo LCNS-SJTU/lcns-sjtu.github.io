@@ -8,13 +8,22 @@
 #   video: 
 
 - presenter: Runguang Zhou
+  date: 2026-10-22 14:00:00
+  paper: TRIBE TRIMODAL BRAIN ENCODER FOR WHOLE-BRAIN FMRI RESPONSE PREDICTION
+  url: https://arxiv.org/abs/2507.22229
+  pdf: https://arxiv.org/pdf/2507.22229.pdf
+  authors: Stéphane d'Ascoli, Jérémy Rapin, Yohann Benchetrit, Hubert Banville, Jean-Rémi King
+  slides: https://zhoulab-sjtu.quickconnect.cn/d/f/1APJkHGUxD6HhJ69zohbIWIVnX7to3d9
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/1APJjUPVOCaP2Me6r2MIHpqEoXJ2YajK
+
+- presenter: Runguang Zhou
   date: 2026-09-09 10:00:00
   paper: Simulation and assimilation of the digital human brain
   url: https://www.nature.com/articles/s43588-024-00731-3
   pdf: https://www.nature.com/articles/s43588-024-00731-3.pdf
   authors: Wenlian Lu, Xin Du, Jiexiang Wang, Longbin Zeng, Leijun Ye, Shitong Xiang, Qibao Zheng, Jie Zhang, Ningsheng Xu, Jianfeng Feng & the DTB Consortium
-  slides:
-  video: 
+  slides: https://zhoulab-sjtu.quickconnect.cn/d/f/1AC4MR6JgZAa6roilZ1GhDzvQYAEiTe6
+  video: https://zhoulab-sjtu.quickconnect.cn/d/f/1APJhhrJQKeJwFZgSPWvw9SzsjUKnhdS
 
 - presenter: Jingyao Zhang
   date: 2026-08-19 10:00:00
