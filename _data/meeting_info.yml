@@ -7,6 +7,15 @@
 #   slides:
 #   video: 
 
+- presenter: Boran Yang
+  date: 2026-11-13 10:00:00
+  paper: Quantum-Like Dynamics in Whole-Brain Models of the Human Connectome
+  url: https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.77103
+  pdf: https://advanced.onlinelibrary.wiley.com/doi/epdf/10.1002/advs.77103
+  authors: Gustavo Deco, Yonatan Sanz Perl, Natasha Greenstein, Shamil Chandaria, Gregory Scholes, Morten L. Kringelbach
+  slides:
+  video: 
+
 - presenter: Runguang Zhou
   date: 2026-10-22 14:00:00
   paper: TRIBE TRIMODAL BRAIN ENCODER FOR WHOLE-BRAIN FMRI RESPONSE PREDICTION
